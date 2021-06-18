@@ -14,9 +14,10 @@ h4{
 p{
   text-align: center;   
 }
-#img{
-    position: relative;
-    left: 500px;
+.img{
+   height: 225px;
+   width: 250px;
+   padding-top: 6%;
 }
 #cont3{
     color: white;
