@@ -2,6 +2,7 @@ h1{
    padding: 5%; 
    text-align: center;
    line-height: 200px;
+   font-family: 'Pangolin', cursive;
 }
 h6{
   text-align: center; 
@@ -15,9 +16,10 @@ p{
   text-align: center;   
 }
 .img{
-   height: 225px;
-   width: 250px;
+   height: 200px;
+   width: 200px;
    padding-top: 6%;
+   padding-bottom: 6%;
 }
 #cont3{
     color: white;
@@ -25,4 +27,5 @@ p{
 form{
     opacity: 0.5;
     padding-bottom: 5%;
+    margin: 50px;
 }
