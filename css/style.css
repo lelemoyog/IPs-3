@@ -22,3 +22,7 @@ p{
 #cont3{
     color: white;
 }
+form{
+    opacity: 0.5;
+    padding-bottom: 5%;
+}
