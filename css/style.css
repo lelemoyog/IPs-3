@@ -1,0 +1,13 @@
+h1{
+   padding: 5%; 
+   text-align: center;
+   line-height: 200px;
+}
+h6{
+  text-align: center; 
+  padding: 2%;  
+}
+img{
+    position: relative;
+    left: 500px;
+}
