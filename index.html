@@ -136,16 +136,20 @@
     </div>
     <div class="container" style="background-image: url(img/c_image.jpg);">
         <h4>CONTACT US</h4>
-        <form >
+        <form action="https://formsubmit.co/issasaitemu@protonmail.com" method="POST">
             <div class="input-group">
-                <input type="text" aria-label="First name" class="form-control" placeholder="Name">
-                <input type="text" aria-label="Last name" class="form-control" placeholder="Email">
+                <input type="hidden" name="_captcha" value="false">
+                
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_subject" value="New submission!">
+                <input type="text" name="name" aria-label="First name" class="form-control" placeholder="Name" required>
+                <input type="email" name="email" aria-label="Last name" class="form-control" placeholder="Email" required>
             </div>
             <div class="mb-3">
-                <textarea class="form-control" id="message" rows="3" placeholder="your message here..."></textarea>
+                <textarea class="form-control" name="message" rows="3" placeholder="Write your message here..."></textarea>
 
             </div>
-            <button>send</button>
+            <button type="submit">send</button>
     
         </form>
     </div>
