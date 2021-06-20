@@ -16,14 +16,15 @@ $(document).ready(function(){
     
 });
 
-document.getElementById("btn").addEventListener("click", function() {
+document.getElementById("btn").addEventListener("click", function () {
     var emailInput =document.getElementsByName("email").values;
     var nameInput =document.getElementsByName("name").values;
-
+    
     if(emailInput === "" && nameInput === ""){
         console.log(" please fill the form !!")
     }
     else{
         alert("Thank you for reaching out!");
     }
+    
 });
