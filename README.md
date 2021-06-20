@@ -17,7 +17,7 @@ no know bugs
 * JAVASCRIPT
 * JQUERY
 ## Support and contact details
-For any support contanct me via emal issasaitemu@gmail.com
+For any support contanct me via email issasaitemu@gmail.com
 ### License
  [MIT License](License).
 Copyright (c) {2021}  saitemu issa.
