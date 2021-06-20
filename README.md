@@ -19,6 +19,6 @@ no know bugs
 ## Support and contact details
 For any support contanct me via emal issasaitemu@gmail.com
 ### License
-MIT [License]
+ [MIT License](License).
 Copyright (c) {2021}  saitemu issa.
 
