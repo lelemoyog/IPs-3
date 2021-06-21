@@ -13,7 +13,13 @@ $(document).ready(function(){
     $("img#w3 ,div#ww3").click(function () {
         $("div#ww3 , img#w3").toggle();
     })
-    
+    $(".img , .project_title").hover(function(){
+        $(this).width(1.25*$(this).width());
+        $(this).height(1.25*$(this).height());
+    },function(){
+        $(this).width(0.8*$(this).width());
+        $(this).height(0.8*$(this).height());
+    });
 });
 
 document.getElementById("btn").addEventListener("click", function () {
